@@ -65,15 +65,7 @@ div[class="navbar"] {
     padding: 50px;
 
 }
-.featured-title {
-    width: 200px;
-}
 
-.featured-desc {
-    width: 500px;
-    color: lightgray;
-    margin: 30px 0;
-}
 
 .featured-button {
     background-color: #4DBF00;
