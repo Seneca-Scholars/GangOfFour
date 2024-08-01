@@ -1,0 +1,213 @@
+.header{
+  min-height: 100vh;
+  width: 0%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(the_seneca_foundation_cover.jpeg);
+  background-position: center;
+  background-size:cover;
+  position: relative;
+}
+
+
+.baka{
+  width: 150px;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px
+}
+
+.nav-links ul li ::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #df1414;
+  display: block;
+  transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+  width: 100%;
+}
+
+
+.textBox h1{
+  font-size: 62px;
+}
+.textBox p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+@media(max-width: 700px){
+  .textBox h1{
+      font-size: 20px;
+  }
+  .nav-links ul li{
+      display: block;
+  }
+
+  .nav-links{
+      position: absolute;
+      background:#eed022;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;
+      transition: 1s;
+  }
+  nav .fa{
+      display: block;
+      color: #fff;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+  }
+
+  .nav-links ul{
+      padding: 30px;
+  }
+
+  .nav-links ul{
+      padding: 30px;
+
+  }
+}
+
+
+
+/* ---- About us header --- */
+.sub-header{
+height: 50vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(the_seneca_foundation_cover.jpeg);
+background-position: center;
+background-size: cover;
+text-align: center;
+color: #fff;
+}
+
+.sub-header h1{
+margin-top: 150px;
+}
+
+.about-us{
+width: 80%;
+margin: auto;
+padding-top: 80px;
+padding-bottom: 50px;
+}
+
+.allPics{
+  display: flex;
+  justify-content:space-between ;
+}
+.natePIC{
+width: 30vh;
+height: 35vh;
+/* position: absolute; */
+top: 70vh;
+right: 90vh;
+border: #000000 3px solid;
+}
+
+.sethPIC{
+  width: 30vh;
+  height: 35vh;
+  /* position: absolute; */
+  top: 70vh;
+  right: 130vh;
+  border: #000000 3px solid;
+  }
+
+  .meronPIC{
+    width: 30vh;
+    height: 35vh;
+    /* position: absolute; */
+    top: 70vh;
+    right: 50vh;
+    border: #000000 3px solid;
+    }
+
+    .miloPIC{
+      width: 30vh;
+      height: 35vh;
+      /* position: absolute; */
+      top: 70vh;
+      right: 10vh;
+      border: #000000 3px solid;
+      }
+
+.textBox{
+  border: red 1px solid;
+  color: black;
+  position: relative;
+  width: 30vh;
+  bottom: 1vh;
+}
+.textBox2{
+  border: red 1px solid;
+  color: black;
+  position: relative;
+  left: 35.2vh;
+  width: 30vh;
+  bottom: 6.3vh;
+}
+
+.textBox3{
+  border: red 1px solid;
+  color: black;
+  position: relative;
+  left: 71.4vh;
+  width: 29vh;
+  bottom: 11.7vh;
+}
+
+.textBox4{
+  border: red 1px solid;
+  color: black;
+  position: relative;
+  left: 107vh;
+  width: 29vh;
+  bottom: 15.3vh;
+}
+.about-me{
+  width: 30%;
+  color: #fff;
+  position: absolute;
+  text-align: left;
+  bottom: 0;
+  vertical-align:bottom ;
+}
+
+.underlined::after{
+    content: '';
+    width: 4%;
+    height: 2px;
+    background: #ee2222;
+    display: block;
+    margin: auto;
+    transition: 0;
+}
