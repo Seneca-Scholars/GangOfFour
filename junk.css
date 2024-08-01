@@ -31,7 +31,7 @@ div[class="navbar"] {
 .menu-list {
     display: flex;
     list-style: none;
-    justify-content: flex-end;
+    
 }
 .menu-list-item {
     margin-right: 30px;
