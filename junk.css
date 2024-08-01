@@ -27,12 +27,7 @@ div[class="navbar"] {
     font-size: 30px;
     color: #4DBF00;
 }
-.menu-container {
-    flex: 6;
-    margin-left: 60px;
-    
 
-}
 .menu-list {
     display: flex;
     list-style: none;
