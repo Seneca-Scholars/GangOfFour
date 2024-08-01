@@ -67,16 +67,7 @@ div[class="navbar"] {
 }
 
 
-.featured-button {
-    background-color: #4DBF00;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    font-weight: bold;
-    cursor: pointer;
-}
+
 .movie-list-container {
     padding: 20px;
 }
